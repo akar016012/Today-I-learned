@@ -11,14 +11,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Today I Learned!</title>
+    <title>My Reddit!</title>
   </head>
   <body>
     <div class="container">
       <header class="header">
         <div class="logo">
-          <img src="./logo.png" alt="Chat app logo" height="68" width="68" />
-          <h1>Today I Learned</h1>
+          <img
+            src="https://www.pngkey.com/png/full/10-104244_location-png-icon-transparent-stock-location-icon-red.png"
+            alt="Chat app logo"
+          />
+          <h1>My Reddit</h1>
         </div>
         <button class="btn btn-large">Share a fact</button>
       </header>
@@ -42,7 +45,9 @@
       <main class="main">
         <aside>
           <ul>
-            <li><button class="btn btn-all-categories">All</button></li>
+            <li class="category">
+              <button class="btn btn-all-categories">All</button>
+            </li>
             <li>
               <button
                 class="btn btn-categories"
@@ -51,7 +56,7 @@
                 Technology
               </button>
             </li>
-            <li>
+            <li class="category">
               <button
                 class="btn btn-categories"
                 style="background-color: rgb(31, 195, 83)"
@@ -71,12 +76,21 @@
                 >
               </p>
               <span class="tag" style="background-color: #3b82f6"
-                >#technology#</span
+                >Technology</span
               >
               <div class="vote-buttons">
-                <button>👍 <strong>24</strong></button>
-                <button>🤯 <strong>9</strong></button>
-                <button>⛔ <strong>4</strong></button>
+                <button>
+                  👍
+                  <p>24</p>
+                </button>
+                <button>
+                  🤯
+                  <p>9</p>
+                </button>
+                <button>
+                  ⛔
+                  <p>4</p>
+                </button>
               </div>
             </li>
             <li class="fact">
@@ -91,13 +105,21 @@
                   >(Source)</a
                 >
               </p>
-              <span style="background-color: #eab308" class="tag"
-                >#society#</span
-              >
+              <span style="background-color: #eab308" class="tag">Society</span>
               <div class="vote-buttons">
-                <button>👍 <strong>11</strong></button>
-                <button>🤯 <strong>2</strong></button>
-                <button>⛔ <strong>0</strong></button>
+                <button>
+                  👍
+                  <p>11</p>
+                </button>
+
+                <button>
+                  🤯
+                  <p>2</p>
+                </button>
+                <button>
+                  ⛔
+                  <p>0</p>
+                </button>
               </div>
             </li>
           </ul>
