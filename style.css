@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292524;
+    color: #fafaf9;
+    font-family: "Sono", sans-serif;
+    padding: 48px 64px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 48px;
+}
+
+.header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo img {
+    width: 68px;
+    height: 68px;
+}
+
+.fact-form {
+    background-color: #44403c;
+    margin-bottom: 40px;
+    padding: 16px 40px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: "Coiny", sans-serif;
+    line-height: 1;
+    margin-top: 6px;
+}
+
+.fact {
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #44403c;
+    margin-bottom: 16px;
+    padding: 16px 24px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.fact>p {
+    letter-spacing: 1px;
+}
+
+.tag {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Coiny", sans-serif;
+    padding: 3px 10px 0px 10px;
+    border-radius: 100px;
+}
+
+.vote-buttons {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.vote-buttons button {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: "Coiny", sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 16px 0px 13px;
+    background-color: #0d8db4;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.btn:hover {
+    transform: scale(110%) rotate(-2deg);
+}
+
+
+.source:link,
+.source:visited {
+    color: #696b6c;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 12px;
+    transition: 0.3s;
+}
+
+.source:hover,
+.source:active {
+    color: rgb(32, 132, 178);
+    font-weight: bolder;
+}
+
+.btn-large {
+    font-size: 20px;
+    padding: 20px 32px 17px;
+}
+
+
+.btn-all-categories {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.btn-categories {
+    margin-bottom: 16px;
+    width: 100%;
+}
